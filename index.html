@@ -12,18 +12,20 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
+        <div class="row" hidden>
             <div class="col-12">
                 <img class="grid img-fluid" src="imgs/grid.png" alt="grid">
             </div>
         </div>
     </div>
-    <header class="container-fluid bg-danger">
-        <div class="container bg-info">
+    <header class="container-fluid bg-gray">
+        <div class="container">
             <div class="row">
-                <div class="col-5">logo</div>
+                <div class="col-5">
+                    <img src="imgs/logo.png" alt="logo" class="img-fluid custom_logo">
+                </div>
                 <div class="col-7 custom">
-                    <nav class="nav justify-content-end custom_nav">
+                    <nav class="nav d-flex custom_nav">
                         <a href="#" class="nav-link active">HOME</a>
                         <a href="#" class="nav-link">ABOUT</a>
                         <a href="#" class="nav-link">WORK</a>
@@ -36,11 +38,16 @@
             </div>
             <div class="row">
                 <div class="col-6 offset-6">
-                    <h1>We Design and Develop</h1>
-                    <p>We are a new design studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps.</p>
-                    <button>CONTACT US</button>
+                    <div class="custom_header_content">
+                        <h1>We Design and Develop</h1>
+                        <div class="custom_header_text">
+                            <p>We are a new design studio based in USA. We have over</p>
+                            <p>20 years of combined experience, and know a thing or two </p>
+                            <p>about designing websites and mobile apps.</p>
+                        </div>
+                        <button class="custom_btn">CONTACT US</button>
+                    </div>
                 </div>
-                
             </div>
         </div>
     </header>
