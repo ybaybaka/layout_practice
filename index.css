@@ -58,5 +58,25 @@ body {
   width: 180px;
   height: 54px;
 }
+.custom_about {
+  padding-top: 89px;
+  padding-bottom: 100px;
+}
+.custom_about_head {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  letter-spacing: -0.6px;
+  padding-bottom: 18px;
+}
+.custom_about_text {
+  color: #787878;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  letter-spacing: 0.1px;
+}
+.custom_about_signa {
+  margin-top: 33px;
+}
 
 /*# sourceMappingURL=index.css.map */
