@@ -109,5 +109,13 @@ body {
 .custom_skills_progress div {
   background-color: #10c9c3;
 }
+.custom_stats {
+  padding: 100px 0px;
+  background-color: #10c9c3;
+}
+.custom_stats span {
+  font-size: 48px;
+  color: #fff;
+}
 
 /*# sourceMappingURL=index.css.map */
