@@ -213,5 +213,51 @@ body {
   border-bottom: 8px solid transparent;
   border-left: 11px solid white;
 }
+.custom_services {
+  padding: 103px 0;
+  margin: 0;
+  background-color: #f5f5f5;
+  height: 535px;
+}
+.custom_services .row:first-child {
+  padding-bottom: 60px;
+}
+.custom_services_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.custom_services_card h6 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #191919;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  margin-top: 31px;
+}
+.custom_services_card span {
+  color: #656565;
+  font-size: 48px;
+}
+.custom_services_card_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  color: #787878;
+  margin-top: 23px;
+}
+.custom_services_card_text p:first-child {
+  line-height: 24px;
+}
+.custom_services_card_text p {
+  margin: 0;
+  padding: 0;
+}
 
 /*# sourceMappingURL=index.css.map */
