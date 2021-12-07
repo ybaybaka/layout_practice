@@ -117,5 +117,19 @@ body {
   font-size: 48px;
   color: #fff;
 }
+.custom_stats_block {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+.custom_stats_block div {
+  margin-left: 22px;
+}
+.custom_stats_block div h6 {
+  font-size: 18px;
+}
+.custom_stats_block div p {
+  font-size: 12px;
+  letter-spacing: 0.9px;
+}
 
 /*# sourceMappingURL=index.css.map */
