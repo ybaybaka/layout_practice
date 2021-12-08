@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 .bg-gray {
   background-color: #e9e9e9;
@@ -258,6 +258,43 @@ body {
 .custom_services_card_text p {
   margin: 0;
   padding: 0;
+}
+.custom_quotes {
+  padding-top: 182px;
+  padding-bottom: 60px;
+  background-color: #10c9c3;
+}
+.custom_quotes h3, .custom_quotes h4 {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+.custom_quotes h4 {
+  font-size: 12px;
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+.custom_quotes_pagination {
+  margin-top: 111px;
+  padding: 0;
+}
+.custom_quotes_pagination li {
+  display: inline;
+}
+.custom_quotes_pagination li:not(:last-child) {
+  padding-right: 9px;
+}
+.custom_quotes_pagination_item {
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #b0e8e6;
+  border-radius: 50%;
+}
+.custom_quotes_pagination_item_active {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=index.css.map */
