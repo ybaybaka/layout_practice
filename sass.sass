@@ -6,7 +6,7 @@
 body
     padding: 0
     margin: 0
-.custom
+.main
     &_nav
         margin-left: 51px
         margin-top: 33px
@@ -302,7 +302,61 @@ body
                 list-style-type: none
                 font-family: 'Nunito Sans', sans-serif
 
-
+// homepage styles
+.home
+    padding-bottom: 37px
+    &_nav
+        margin-left: 51px
+        margin-top: 33px
+        .active
+            color: #1ca8c3
+        a
+            color: black
+            font-family: 'Montserrat', sans-serif
+            font-size: 12px
+            letter-spacing: 0.4px
+    &_logo
+        top: 38px
+        position: absolute
+        left: 147px
+    &_main
+        &_content
+            padding: 100px 0px
+            h1
+                font-family: 'Montserrat', sans-serif
+                font-size: 38px
+                letter-spacing: -1px
+                margin: 0
+                margin-bottom: 35px
+            p
+                letter-spacing: 0.1px
+                font-family: 'Nunito Sans', sans-serif
+                color: #787878
+                font-size: 18px
+                margin: 0
+    &_photos
+        div:first-child
+            height: 300px
+            div:nth-child(even)
+                background-color: #dddddd
+            div:nth-child(odd)
+                background-color: #838383
+        div:nth-child(2)
+            height: 300px
+            div:nth-child(odd)
+                background-color: #dddddd
+            div:last-child
+                background-color: #838383
+            div:nth-child(2)
+                background-color:#21bfb9
+                color: #fff
+                font-size: 48px 
+        div:last-child
+            height: 300px
+            div:nth-child(even)
+                background-color: #dddddd
+            div:nth-child(odd)
+                background-color: #838383
 
                 
 
